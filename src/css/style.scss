@@ -1,0 +1,43 @@
+@import "_variables";
+@import "_mixins";
+@import "_helpers";
+@import "blocks/_ie";
+
+
+@import "../vendor/bootstrap/scss/bootstrap.scss";
+@import "../vendor/aos/dist/aos.scss";
+@import "../vendor/owl/owl.carousel.min.scss";
+@import "../vendor/venobox/venobox.min.scss";
+
+
+@import "../vendor/bootstrap/scss/bootstrap-reboot.scss";
+@import "../vendor/bootstrap/scss/_utilities.scss";
+@import "../vendor/bootstrap/scss/_grid.scss";
+@import "../vendor/bootstrap/scss/_buttons.scss";
+@import "../vendor/bootstrap/scss/_card.scss";
+@import "../vendor/bootstrap/scss/_nav.scss";
+@import "../vendor/bootstrap/scss/_navbar.scss";
+@import "../vendor/bootstrap/scss/_dropdown.scss";
+@import "../vendor/bootstrap/scss/_buttons.scss";
+@import "../vendor/bootstrap/scss/_button-group.scss";
+@import "../vendor/bootstrap/scss/_forms.scss";
+@import "../vendor/bootstrap/scss/_type.scss";
+@import "../vendor/bootstrap/scss/_carousel.scss";
+@import "../vendor/bootstrap/scss/_popover.scss";
+
+
+
+
+
+@import "blocks/_body";
+@import "blocks/_menu";
+@import "blocks/_intro";
+@import "blocks/_about";
+@import "blocks/_services";
+@import "blocks/_gallery";
+@import "blocks/_faq";
+@import "blocks/_hospital";
+@import "blocks/_department";
+@import "blocks/_contact";
+@import "blocks/_footer";
+@import "blocks/_backToTopBtn";

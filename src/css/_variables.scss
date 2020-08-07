@@ -1,0 +1,15 @@
+$bgColor: #74529C;
+$color: #E3E3E3;
+
+$mobile-sm: "max-width: 565px";
+$mobile: "max-width: 767px";
+$tablet: "max-width: 991px";
+$notebook: "max-width: 1199px";
+
+
+
+// bootstrap variables
+.btn:focus,.btn:active {
+   outline: none !important;
+   box-shadow: none !important;
+}

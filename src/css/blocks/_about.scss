@@ -1,0 +1,77 @@
+.about {
+	display: flex;
+	padding-top: 20vh;
+	justify-content: center;
+	width: 100vw;
+	@media ($mobile) {
+		padding-top: 10vh;
+	}
+
+}
+
+.about__inner {
+	display: flex;
+	justify-content: center;
+	font-family: 'Jura', sans-serif;
+}
+
+.about__title {
+	font-size: 24px;
+	margin-bottom: 5vh;
+}
+
+.about__text {
+}
+
+.about__plus {
+	list-style-type: square;
+	list-style-position: inside;
+}
+
+.about__card {
+	margin-top: 3vh;
+	margin-bottom: 3vh;
+}
+
+.card-about {
+	display: block;
+    justify-content: center;
+    align-items: center;
+    min-height: 259px;
+    padding: 15px 15px;
+	background-color: #12A7CF;
+	font-family: 'Jura', sans-serif;
+	cursor: pointer;
+}
+
+.card-about__title {
+	font-size: 16px;
+}
+
+.card-about__subtitle {
+	font-size: 12px;
+	
+}
+
+.about__form_right  {
+	@media (min-width: 992px) {
+	margin-top: -27vh;
+	}
+}
+
+.about__form {
+	font-family: 'Jura', sans-serif;
+	font-size: 12px;
+	background: #12A7CF;
+	padding: 15px 12px 15px 30px;
+}
+
+.form-about__title {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	font-size: 18px;
+	color: #fff;
+	min-height: 45px;
+	background: #8a81e3;
+}

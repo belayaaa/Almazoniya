@@ -1,0 +1,116 @@
+.footer {
+    font-size: 14px;
+    padding: 60px 0 30px 0;
+    background: #fff;
+}
+
+
+.footer-contact {
+    margin-bottom: 30px;
+    font-family: 'Jura', sans-serif;
+}
+
+.footer-contact__title {
+    font-size: 28px;
+    margin: 0 0 10px 0;
+    padding: 2px 0 2px 0;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #67b0d1;
+}
+
+.footer-contact__info {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+    color: #5e5e5e;
+}
+
+.footer-contact__info a {
+    color: #5e5e5e;
+}
+
+.footer-links__headline {
+    font-size: 16px;
+    font-weight: bold;
+    color: #37517e;
+    position: relative;
+    padding-bottom: 12px;
+}
+
+.footer-links {
+    margin-bottom: 30px;
+}
+
+.footer-links__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links__item {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.footer-links__item:first-child {
+    padding-top: 0;
+}
+
+.footer-links__list a {
+    color: #777777;
+    transition: 0.3s;
+    display: inline-block;
+    line-height: 1;
+}
+
+.footer-links__list a:hover {
+    text-decoration: none;
+    color: #47b2e4;
+}
+
+
+
+.footer__social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #47b2e4;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+}
+
+.footer__social-links a:hover {
+    background: #209dd8;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+// svg
+.footer__icon {
+    display: inline-block;
+    margin-bottom: 10px;
+    width: 20px;
+    height: 20px;
+    fill: #fff;
+    &:hover {
+      fill: #f8f9fa;
+    }
+}
+
+// svg
+.contact__icon_right-arrow {
+    display: inline-block;
+    margin-right: 5px;
+    width: 15px;
+    height: 15px;
+    fill: #47b2e4;
+}
